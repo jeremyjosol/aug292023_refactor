@@ -25,4 +25,13 @@ expect (journalEntry.wordCountNumber(journalEntry.body)).toEqual(7);
 
 });
 
+test('it should return the words in the body property', () => {
+
+let journalEntry = new Entry("Title", "This is a sentence in the body");
+expect (journalEntry.vowelCount(journalEntry.body)).toEqual("This is a sentence in the body");  
+
 });
+
+});
+
+
