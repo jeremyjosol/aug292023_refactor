@@ -1,4 +1,4 @@
-// import Constructor from './../src/javascript.js';
+import Entry from './../src/journal.js';
 
 // describe('Constructor', () => {}
 describe('Entry', () => {
