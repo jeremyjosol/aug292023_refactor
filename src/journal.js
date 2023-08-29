@@ -9,3 +9,7 @@ Entry.prototype.wordCount = function(body) {
   // .length;
 };
 
+Entry.prototype.wordCountNumber = function(body) {
+  const bodyCount = this.body.split(" ");
+  return bodyCount.length;
+};
