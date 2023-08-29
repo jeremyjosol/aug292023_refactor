@@ -11,5 +11,5 @@ Entry.prototype.wordCount = function(body) {
 
 Entry.prototype.wordCountNumber = function(body) {
   const bodyCount = this.body.split(" ");
-  return bodyCount.length;
+  // return bodyCount.length;
 };
