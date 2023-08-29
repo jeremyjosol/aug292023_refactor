@@ -1,15 +1,14 @@
 import Entry from './../src/journal.js';
 
-// describe('Constructor', () => {}
 describe('Entry', () => {
 
 test('it should accurately count the amount of words in the journals body sentence', () => {
 
-const journalEntry = new Entry(title, body);
+let journalEntry = new Entry("title", "This is a sentence in the body");
 
-expect(journalEntry.checkType()).toEqual("how many words in journals body sentence");
+expect(journalEntry.title).toEqual("title");
+expect(journalEntry.body).toEqual("This is a sentence in the body");
 
 });
 
 });
-// test() => {}
