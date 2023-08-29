@@ -18,4 +18,11 @@ expect (journalEntry.wordCount(journalEntry.body)).toEqual(["This", "is", "a", "
   
 });
 
+test('it should return the number of the words in the body propertys array', () => {
+
+let journalEntry = new Entry("Title", "This is a sentence in the body");
+expect (journalEntry.wordCount(journalEntry.body)).toEqual(7);
+
+});
+
 });
