@@ -4,8 +4,8 @@ export default function Entry(title, body){
 }
 
 Entry.prototype.wordCount = function(body) {
-  // const bodyCount = this.body.split(" ");
-  // return bodyCount;
+  const bodyCount = this.body.split(" ");
+  return bodyCount;
   // .length;
 };
 
