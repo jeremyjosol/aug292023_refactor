@@ -23,7 +23,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'new_project_title_here',
+      title: 'journal-refactor',
       template: './src/index.html',
       inject: 'body'
     })
