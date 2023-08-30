@@ -16,6 +16,7 @@ Entry.prototype.wordCountNumber = function(body) {
 
 Entry.prototype.vowelCount = function(body) {
   const bodyCounter = this.body;
+  bodyCounter;
   // const vowels = "aeiouAEIOU";
   // let vowelCount = 0;
   // let consonantCount = 0;
